@@ -1,0 +1,13 @@
+{
+  "azureFunctions.projectRuntime": "~2",
+  "azureFunctions.projectLanguage": "Python",
+  "azureFunctions.deploySubpath": "Functions/Functions.zip",
+  "azureFunctions.preDeployTask": "func: pack",
+  "files.exclude": {
+    "obj": true,
+    "bin": true
+  },
+  "azureFunctions.pythonVenv": ".env",
+"debug.internalConsoleOptions": "neverOpen",
+"python.linting.pylintEnabled": true
+}
